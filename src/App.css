@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.banner {
+  height: 350px;
+  width: 100%;
+  margin-top: 4.9rem;
+  position: relative;
+
+}
+@media only screen and (max-width: 480px) {
+  .banner{
+    margin-right: 100px;
+    width: 480px;
+    height: 230px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .banner{
+    margin-right: 100px;
+    width: 695px;
+    height: 260px;
+  }
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 460px) {
+  .banner{
+    width: 176%;
+  }
+}
+
+
+
+
+

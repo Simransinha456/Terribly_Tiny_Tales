@@ -1,0 +1,305 @@
+.divider {
+  position: relative;
+  border-top: 2px solid lightgray;
+  width: 150px;
+  margin-left: -1%;
+  border-right: 2px solid lightgray;
+  height: 65px;
+  margin-bottom: 40px;
+}
+
+.divider::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 74rem;
+  background-color: lightgray;
+  top: 100%;
+  left: 100%;
+}
+
+.post {
+  color: rgb(34, 167, 219);
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: -40px;
+}
+
+.container {
+  margin-left: -5%;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: -50px;
+
+}
+
+.content-container p {
+  font-size: 25px;
+  margin-bottom: 90px;
+  font-weight: 500;
+  margin-left: 100px;
+}
+
+.content-container img {
+  position: absolute;
+  right: 4%;
+  margin-bottom: 70px;
+  height: 30px;
+  width: 30px;
+}
+
+
+.subheading {
+  margin-left: 100px;
+  margin-top: 0;
+  text-align: justify;
+  font-size: 20px;
+  width: 75rem;
+}
+
+.parent-container {
+  display: flex;
+  align-items: center;
+}
+
+.navdiv {
+  display: flex;
+  margin-left: 100px;
+}
+
+.p1 {
+  color: rgb(14, 189, 189);
+  font-weight: 700;
+}
+
+.p2 {
+  color: rgb(55, 41, 41);
+  font-weight: 700;
+}
+
+.p3 {
+  color: gray;
+  position: absolute;
+  right: 4%;
+}
+
+
+.navdiv p {
+  margin-right: 20px;
+}
+
+.parent-container>div span p {
+  margin: 0;
+}
+
+.hr {
+  margin-left: -8rem;
+  width: 95rem;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .divider {
+    margin-left: 1%;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .divider::after {
+    width: 23rem;
+  }
+
+  .post {
+    font-size: 14px;
+    margin-right: -10px;
+  }
+
+  .container {
+    margin-left: 43%;
+    width: 300px;
+  }
+
+  .content-container p {
+    margin-top: -50px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -11rem;
+    margin-top: 50px;
+  }
+
+  .content-container img {
+    margin-right: 45px;
+    margin-bottom: 40px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .subheading {
+    width: 25rem;
+    font-size: 15px;
+    margin-top: -70px;
+    margin-left: -175px;
+  }
+
+  .navdiv {
+    display: flex;
+    margin-left: -23.5rem;
+  }
+
+  .p1 {
+    margin-left: 200px;
+    font-size: 12px;
+
+  }
+
+  .p2 {
+    font-size: 12px;
+  }
+
+  .p3 {
+    font-size: 12px;
+    position: relative;
+    right: -70px;
+  }
+
+  .hr {
+    margin-left: -15rem;
+    width: 32rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+  .divider {
+    margin-left: -1%;
+    height: 50px;
+    width: 130px;
+    margin-bottom: 20px;
+  }
+
+  .divider::after {
+    width: 37.5rem;
+  }
+
+  .post {
+    font-size: 14px;
+    margin-right: -10px;
+  }
+
+  .container {
+    margin-left: 50%;
+    width: 300px;
+  }
+
+  .content-container p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -15rem;
+    margin-top: 40px;
+  }
+
+  .content-container img {
+    margin-right: -60px;
+    margin-bottom: 40px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .subheading {
+    width: 36rem;
+    font-size: 15px;
+    margin-top: -70px;
+    margin-left: -240px;
+  }
+
+  .navdiv {
+    display: flex;
+    margin-left: -27.5rem;
+  }
+
+  .p1 {
+    margin-left: 200px;
+    font-size: 12px;
+  }
+
+  .p2 {
+    font-size: 12px;
+  }
+
+  .p3 {
+    font-size: 12px;
+    position: relative;
+    right: -230px;
+  }
+
+  .hr {
+    margin-left: -18.5rem;
+    width: 43rem;
+  }
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 460px) {
+
+  .divider {
+    margin-left: -1%;
+    width: 120px;
+  }
+  .post {
+    font-size: 14px;
+    margin-right: -10px;
+  }
+
+
+  .divider::after {
+    width: 36.5rem;
+  }
+
+  .container {
+    margin-left: 66%;
+  }
+
+  .content-container p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -15rem;
+    margin-top: 40px;
+  }
+
+  .content-container img {
+    margin-right: -280px;
+    margin-bottom: 40px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .subheading {
+    width: 39rem;
+    margin-left: -240px;
+  }
+
+  .navdiv {
+    display: flex;
+    margin-left: -27.5rem;
+  }
+  .p2{
+    margin-left: -10px;
+  }
+  
+  .p3 {
+    font-size: 12px;
+    position: relative;
+    right: -270px;
+  }
+
+  .hr {
+    margin-left: -18.5rem;
+    width: 44.5rem;
+  }
+}

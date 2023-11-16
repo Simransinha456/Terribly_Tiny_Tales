@@ -1,0 +1,167 @@
+.nav {
+    position: absolute;
+    background-color: black;
+    width: 98%;
+    height: 50px;
+    padding: 15px;
+}
+.logoContainer{
+    position: relative;
+}
+.logo {
+    height: 3rem;
+    position: absolute;
+    left: 40px; 
+    border-radius: 0;
+}
+.verticalLine {
+    height: 80%; 
+    margin-top: 8px;
+    border-right: 2px solid yellow; 
+    margin-right: 74rem; 
+}
+.navname{
+    color: aliceblue;
+    margin-top: -50px;
+    margin-right: 910px;
+    letter-spacing: 5px;
+}
+.course{
+    margin-left: 23rem;
+    margin-top: -42px;
+}
+.course button {
+    background-color: rgb(237, 163, 43); 
+    color: white; 
+    padding: 8px 15px; 
+    border: none; 
+    float: right;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+@media only screen and  (max-width: 480px) {
+    .nav {
+        left: 5%;
+        transform: translateX(-5%);
+        width: 28rem;
+    }
+    .logo {
+        height: 3rem;
+        position: absolute;
+        left: 30px; 
+    }
+  
+    .verticalLine {
+        margin-left: 6rem; 
+        height: 80%; 
+        margin-top: 8px;
+    }
+    .navname{
+        margin-top: -50px;
+        margin-right:120px;
+        letter-spacing: 4px;
+    }
+    .course button {
+        background-color: rgb(237, 163, 43); 
+        padding: 10px 15px; 
+        font-size: 14px;
+        float: right;
+        margin-right: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .nav {
+        left: -2%;
+        width: 42.3rem;
+    }
+  
+    .verticalLine {
+        margin-left: 6.5rem; 
+    }
+    .navname{
+        margin-top: -50px;
+        margin-right:340px;
+    }
+    .course button {
+        padding: 10px 16px; 
+        font-size: 15px;
+        float: right;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 460px) {
+   
+    .nav {
+        left: 5%;
+        width: 42rem;
+    }
+    .logo {
+        height: 3rem;
+        position: absolute;
+        left: 30px; 
+    }
+  
+    .verticalLine {
+        margin-left: 6rem; 
+        height: 80%; 
+        margin-top: 8px;
+    }
+    .navname{
+        margin-top: -50px;
+        margin-right:360px;
+        letter-spacing: 4px;
+    }
+    .course button {
+        background-color: rgb(237, 163, 43); 
+        padding: 10px 15px; 
+        font-size: 14px;
+        float: right;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 40.5rem;
+    }
+    .navname{
+        margin-right:340px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 44.5rem;
+    }
+    .navname{
+        margin-right:380px;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 42rem;
+    }
+    .navname{
+        margin-right:360px;
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 600px){
+    .nav {
+        left: 5%;
+        width: 46.5rem;
+    }
+    .navname{
+        margin-right:410px;
+    }
+}
