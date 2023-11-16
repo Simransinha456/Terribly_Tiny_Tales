@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+I have created a profile screen that is designed to be visible in various modes, including desktop mode and responsive mode for different mobile devices. The screen consists of three components: Nav, Profile, and Records. The mobile view has been tested on devices such as iPhone SE, iPhone XR, iPhone 12 Pro, iPhone 14 Pro Max
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here are some examples of different mobile devices.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![desk1](https://github.com/Simransinha456/Terribly_Tiny_Tales/assets/92973051/941b5447-99dc-411b-8125-af3f720d6999)
+![iphone 12 pro](https://github.com/Simransinha456/Terribly_Tiny_Tales/assets/92973051/daca09c6-92fd-426d-9944-4d9932bc2937)
+![iPhone 14 pro max](https://github.com/Simransinha456/Terribly_Tiny_Tales/assets/92973051/8867ccf5-7407-4de1-b62e-cff50646c61f)
+![IPhone SE](https://github.com/Simransinha456/Terribly_Tiny_Tales/assets/92973051/2347176f-e725-441b-b76d-bf6dc69cf9c5)
+![iPhoneXR](https://github.com/Simransinha456/Terribly_Tiny_Tales/assets/92973051/63e988ac-1c1e-44f5-a1da-e1c8131103c1)
